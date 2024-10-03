@@ -1,1 +1,15 @@
-This is a test txt file 
+Esto se uso I This is a test txt file esto se uso A
+Monday
+Tuesday
+Wed
+Thu
+Fri
+Sat
+Sun
+p para pegar la linea debajo 
+dd para borrar linea completa
+yy para copiar linea completa 
+x para borrar el caracter bajo el cursor
+i para entrar a modo insert esc para salir 
+:wq para sil y guardar
+:q! para salir sin guardar
