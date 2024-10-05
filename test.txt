@@ -1,4 +1,4 @@
-Esto se uso I This is a test txt file esto se uso A
+this is a txt file
 Monday
 Tuesday
 Wed
@@ -13,3 +13,5 @@ x para borrar el caracter bajo el cursor
 i para entrar a modo insert esc para salir 
 :wq para sil y guardar
 :q! para salir sin guardar
+
+a tu mamaotra vez a tu gfa
