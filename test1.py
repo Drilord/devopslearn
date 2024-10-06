@@ -1,6 +1,6 @@
 path = "/home/ubuntu/devops/test.txt"
 
-mydoc = open(path,'+a')
+mydoc = open(path,'a')
 print("Que quieres escribir en el archivo?")
 entrar=input()
 mydoc.write(entrar)
@@ -9,7 +9,6 @@ print("quieres ver el archivo? y/n")
 imprimir=input()
 if imprimir is"y":
     mydoc = open(path,'r')
-    read = mydoc.read()
-    print(read)
+    print(mydoc.read())
 else:
     print("chido barrio")

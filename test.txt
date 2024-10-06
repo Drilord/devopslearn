@@ -14,3 +14,4 @@ i para entrar a modo insert esc para salir
 :wq para sil y guardar
 :q! para salir sin guardar
 
+prueba write 
