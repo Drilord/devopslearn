@@ -1,14 +1,15 @@
-path = "/home/ubuntu/devops/test.txt"
+path = "/home/ubuntu/devops/read.txt"
 
-mydoc = open(path,'a')
-print("Que quieres escribir en el archivo?")
-entrar=input()
-mydoc.write(entrar)
-mydoc.close()
-print("quieres ver el archivo? y/n")
-imprimir=input()
-if imprimir is"y":
-    mydoc = open(path,'r')
-    print(mydoc.read())
-else:
-    print("chido barrio")
+#mydoc = open(path,'r')
+#print("Que quieres escribir en el archivo?")
+#entrar=input()
+#mydoc.write(entrar)
+#mydoc.close()
+#print("quieres ver el archivo? y/n")
+#imprimir=input()
+#if imprimir is"y":     //=mydoc.readline(20)
+mydoc = open(path,'r', newline="")
+list=[line.strip() for line in mydoc.readlines()]
+print(list)
+#else:
+ #   print("chido barrio")
