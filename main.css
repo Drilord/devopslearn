@@ -24,6 +24,18 @@ body {
     width: 50%;
     color:crimson;
 }
+.caja:hover{
+    margin: 8px;
+    padding: 10px;
+    border-style: outset;
+    border-width: 5px;
+    border-color:rgb(226, 55, 43);
+    background-color: #ffffff;
+    border-radius: 5px;
+    height: 100px;
+    width: 50%;
+    color:rgb(0, 0, 0);
+}
 /*puedes poner no solo id con # o clase con . 
 sino todas las etiquetas como body o p
 */
@@ -32,6 +44,44 @@ a{
     text-decoration: none;
     text-transform: uppercase;
     text-indent: 10%;
-    color: aliceblue;
+    padding: 15px;
+    background-color: beige;
+    border-color: 1px solid;
     letter-spacing: 3px;
+}
+/*link en hover y visitado active es cuando click*/
+a:link{
+    color:chartreuse
+}
+a:visited{
+    color:hotpink
+}
+a:hover{
+    text-decoration: underline;
+    color: blue;
+    background-color: aqua;
+    border-style: outset;
+}
+a:active{
+    color: #000000;
+    background-color: chartreuse;
+    border-style: inset;
+}
+#tit{
+    font-family: 'Times New Roman';
+    font-style: oblique;
+    font-size: 25px;
+    color: darkolivegreen;
+    font-weight: 900;
+}
+ul{
+    padding-left: 0px;
+} 
+ul li{
+    list-style-type: lower-greek;
+    background-color: #cac7c7;
+    border-radius: 4px;
+    border: solid 1px #ddd;
+    padding: 10px;
+    width: 65%;
 }
