@@ -1,0 +1,37 @@
+body {
+    background-color: #504f4f;
+    color:aquamarine    
+}
+#lorem {
+    color:rgb(226, 17, 17);
+    /* los px el 1ro es que tanto desplaza a la derecha, el 2ndo hacia abajo
+    y el tercero que tan difuro esta el text de la sombra  */
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 10);
+}
+.etiqueta{
+    color:blue;
+    word-spacing: 5px;
+}
+.caja {
+    margin: 8px;
+    padding: 10px;
+    border-style: outset;
+    border-width: 5px;
+    border-color:blueviolet;
+    background-color: #000000;
+    border-radius: 5px;
+    height: 100px;
+    width: 50%;
+    color:crimson;
+}
+/*puedes poner no solo id con # o clase con . 
+sino todas las etiquetas como body o p
+*/
+h5{ color: darkgreen;}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    text-indent: 10%;
+    color: aliceblue;
+    letter-spacing: 3px;
+}
